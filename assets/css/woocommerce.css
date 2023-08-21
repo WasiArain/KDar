@@ -1,3 +1,24 @@
+/*------------------------------------------------------------------
+[Table of contents]
+1. form
+2. utilities
+3. theme effect
+4. buttons
+5. alerts
+6. woocommerce
+7. woocommerce widgets
+-------------------------------------------------------------------*/
+/**
+* Web Application Prefix Apply For Making Owner Styles
+*/
+/**
+ *   Blocks Layout Selectors
+ */
+/********* LAYOUT **************/
+/* carousel-controls-v1 */
+/* carousel-controls-v2 */
+/* carousel-controls-v3 */
+/****/
 .margin-top-1 {
   margin-top: 1px !important;
 }
