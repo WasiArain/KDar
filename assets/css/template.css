@@ -1,29 +1,3 @@
-/*------------------------------------------------------------------
-[Table of contents]
-1. base
-2. elements
-3. form
-4. layout
-5. menu
-6. pages 
-7. post
-8. effect 
-9. utilities
-10. widgets layout
-11. widgets 
-12. responsive
--------------------------------------------------------------------*/
-/**
-* Web Application Prefix Apply For Making Owner Styles
-*/
-/**
- *   Blocks Layout Selectors
- */
-/********* LAYOUT **************/
-/* carousel-controls-v1 */
-/* carousel-controls-v2 */
-/* carousel-controls-v3 */
-/****/
 .margin-top-1 {
   margin-top: 1px !important;
 }
@@ -3040,11 +3014,11 @@ ul.list-square > li > a:before {
   background: #202869;
   padding: 10px 17px 13px;
   line-height: 1;
-  border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+  border-radius: 5px;
   font-size: 22px;
   -webkit-transform: translateX(40px);
   -ms-transform: translateX(40px);
@@ -3074,20 +3048,20 @@ ul.list-square > li > a:before {
   line-height: 100px;
   text-align: center;
   padding: 7px;
-  border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  border-radius: 50%;
   background: #fff;
   display: inline-block;
 }
 .back-top .back-inner {
-  border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  border-radius: 50%;
   width: 90px;
   height: 90px;
   background-image: -webkit-linear-gradient(left, #556bff 0%, #32328e 100%);
@@ -3098,11 +3072,11 @@ ul.list-square > li > a:before {
   position: relative;
 }
 .back-top .back-inner:before {
-  border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  border-radius: 50%;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
@@ -4762,7 +4736,7 @@ button:focus,
 .apus-header {
   z-index: 99;
   position: relative;
-  background-image: url(../images/bg-body.jpg);
+  background-image: url(../../assets/images/bg-body.jpg);
 }
 .apus-header .widget {
   margin: 0;
@@ -9048,7 +9022,7 @@ a.vc_single_image-wrapper:hover:after {
   -o-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s;
   border: nne !important;
-  font-sizoe: 18px;
+  font-size: 18px;
   font-weight: 400;
   color: #443c62 !important;
   font-family: "Barlow Semi Condensed", sans-serif;
@@ -9531,6 +9505,7 @@ a.vc_single_image-wrapper:hover:after {
 .owl-carousel .owl-stage {
   position: relative;
   -ms-touch-action: pan-Y;
+  touch-action: pan-Y;
 }
 
 .owl-carousel .owl-stage:after {
@@ -9547,6 +9522,7 @@ a.vc_single_image-wrapper:hover:after {
   overflow: hidden;
   /* fix for flashing background */
   -webkit-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
 }
 
 .owl-carousel .owl-controls {
@@ -9625,6 +9601,7 @@ a.vc_single_image-wrapper:hover:after {
   min-height: 1px;
   float: left;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -9696,6 +9673,7 @@ a.vc_single_image-wrapper:hover:after {
   cursor: pointer;
   z-index: 1;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   -webkit-transition: scale 100ms ease;
   -moz-transition: scale 100ms ease;
   -ms-transition: scale 100ms ease;
@@ -13075,11 +13053,11 @@ a.vc_single_image-wrapper:hover:after {
   border: none;
   padding-left: 20px;
   padding-right: 20px;
-  border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
   -o-border-radius: 0;
+  border-radius: 0;
 }
 .apus-search-form form .form-control::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */

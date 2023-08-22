@@ -1,24 +1,3 @@
-/*------------------------------------------------------------------
-[Table of contents]
-1. form
-2. utilities
-3. theme effect
-4. buttons
-5. alerts
-6. woocommerce
-7. woocommerce widgets
--------------------------------------------------------------------*/
-/**
-* Web Application Prefix Apply For Making Owner Styles
-*/
-/**
- *   Blocks Layout Selectors
- */
-/********* LAYOUT **************/
-/* carousel-controls-v1 */
-/* carousel-controls-v2 */
-/* carousel-controls-v3 */
-/****/
 .margin-top-1 {
   margin-top: 1px !important;
 }
@@ -2801,19 +2780,19 @@ button:focus,
 }
 
 .radius-0 {
-  border-radius: 0 !important;
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
   -ms-border-radius: 0 !important;
   -o-border-radius: 0 !important;
+  border-radius: 0 !important;
 }
 
 .radius-circle {
-  border-radius: 100px !important;
   -webkit-border-radius: 100px !important;
   -moz-border-radius: 100px !important;
   -ms-border-radius: 100px !important;
   -o-border-radius: 100px !important;
+  border-radius: 100px !important;
 }
 
 .btn-3d {
@@ -2877,11 +2856,11 @@ button:focus,
   color: #fff;
 }
 [class*="btn-gradient"]:before {
-  border-radius: 60px;
   -webkit-border-radius: 60px;
   -moz-border-radius: 60px;
   -ms-border-radius: 60px;
   -o-border-radius: 60px;
+  border-radius: 60px;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
@@ -3230,11 +3209,11 @@ button:focus,
 }
 
 .btn-action {
-  border-radius: 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
+  border-radius: 4px;
   cursor: pointer;
   display: inline-block;
   font-size: 11px;
@@ -3271,11 +3250,11 @@ button:focus,
 
 .search-category .btn, .search-category .viewmore-products-btn, .search-category .btn-small, .search-category .woocommerce .wishlist_table td.product-add-to-cart a, .woocommerce .wishlist_table td.product-add-to-cart .search-category a, .search-category .woocommerce #respond input#submit, .woocommerce #respond .search-category input#submit, .search-category .wcv-form [type="submit"], .wcv-form .search-category [type="submit"], .search-category .wfg-button, .search-category .woocommerce .widget_price_filter .price_slider_amount .button, .woocommerce .widget_price_filter .price_slider_amount .search-category .button, .search-category #add_payment_method .wc-proceed-to-checkout a.checkout-button, #add_payment_method .wc-proceed-to-checkout .search-category a.checkout-button, .search-category .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce-cart .wc-proceed-to-checkout .search-category a.checkout-button, .search-category .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button, .woocommerce-checkout .wc-proceed-to-checkout .search-category a.checkout-button {
   margin-left: 10px !important;
-  border-radius: 0px !important;
   -webkit-border-radius: 0px !important;
   -moz-border-radius: 0px !important;
   -ms-border-radius: 0px !important;
   -o-border-radius: 0px !important;
+  border-radius: 0px !important;
 }
 .rtl .search-category .btn, .rtl .search-category .viewmore-products-btn, .rtl .search-category .btn-small, .rtl .search-category .woocommerce .wishlist_table td.product-add-to-cart a, .woocommerce .wishlist_table td.product-add-to-cart .rtl .search-category a, .rtl .search-category .woocommerce #respond input#submit, .woocommerce #respond .rtl .search-category input#submit, .rtl .search-category .wcv-form [type="submit"], .wcv-form .rtl .search-category [type="submit"], .rtl .search-category .wfg-button, .rtl .search-category .woocommerce .widget_price_filter .price_slider_amount .button, .woocommerce .widget_price_filter .price_slider_amount .rtl .search-category .button, .rtl .search-category #add_payment_method .wc-proceed-to-checkout a.checkout-button, #add_payment_method .wc-proceed-to-checkout .rtl .search-category a.checkout-button, .rtl .search-category .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce-cart .wc-proceed-to-checkout .rtl .search-category a.checkout-button, .rtl .search-category .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button, .woocommerce-checkout .wc-proceed-to-checkout .rtl .search-category a.checkout-button {
   margin-right: 10px !important;
@@ -3299,11 +3278,11 @@ button:focus,
 }
 
 .input-group-form {
-  border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
+  border-radius: 3px;
   background: transparent;
   margin: 0 0 5px 0;
 }
@@ -3458,11 +3437,11 @@ button:focus,
 .zoom-2 {
   overflow: hidden;
   display: block;
-  border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
+  border-radius: 3px;
 }
 .zoom-2 img {
   position: relative;
@@ -3489,11 +3468,11 @@ button:focus,
   transition: all 0.6s ease-out 0s;
 }
 .filter-grayscale:hover, .category-image img:hover {
-  filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -o-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .filter-brightness {
@@ -3502,11 +3481,11 @@ button:focus,
   transition: all 0.4s ease-out 0s;
 }
 .filter-brightness:hover {
-  filter: brightness(0.4);
   -webkit-filter: brightness(0.4);
   -moz-filter: brightness(0.4);
   -o-filter: brightness(0.4);
   -ms-filter: brightness(0.4);
+  filter: brightness(0.4);
 }
 
 .filter-blur {
@@ -3515,11 +3494,11 @@ button:focus,
   transition: all 0.6s ease-out 0s;
 }
 .filter-blur:hover {
-  filter: blur(5px);
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
+  filter: blur(5px);
 }
 
 .close .fa {
@@ -3700,11 +3679,11 @@ button:focus,
   -ms-transform: scale(0.5);
   -o-transform: scale(0.5);
   transform: scale(0.5);
-  border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  border-radius: 50%;
   -webkit-transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1), background-color 0.2s cubic-bezier(0.19, 1, 0.22, 1);
   -o-transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1), background-color 0.2s cubic-bezier(0.19, 1, 0.22, 1);
   transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1), background-color 0.2s cubic-bezier(0.19, 1, 0.22, 1);
@@ -4215,11 +4194,11 @@ table.variations .tawcvs-swatches .swatch.selected {
   transition: all 0.2s ease-in-out 0s;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
+  border-radius: 8px;
 }
 .woocommerce form .form-row input.input-text:focus, .woocommerce form .form-row textarea:focus {
   border-color: #32328e;
@@ -4306,11 +4285,11 @@ table.variations .tawcvs-swatches .swatch.selected {
 }
 .woocommerce #respond input#submit {
   display: block;
-  border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
+  border-radius: 8px;
   width: 100%;
 }
 
@@ -4362,11 +4341,11 @@ table.variations .tawcvs-swatches .swatch.selected {
 
 .woocommerce table.shop_table {
   border: 2px solid #e1e2f4;
-  border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
+  border-radius: 8px;
 }
 .woocommerce table.shop_table th {
   border-top: 1px solid #e1e2f4;
@@ -4433,11 +4412,11 @@ table.variations .tawcvs-swatches .swatch.selected {
 .woocommerce .cart-collaterals {
   background: #32328e;
   color: #fff;
-  border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
+  border-radius: 8px;
   padding: 20px;
   max-width: 400px;
 }
@@ -4500,11 +4479,11 @@ table.variations .tawcvs-swatches .swatch.selected {
 .woocommerce #customer_details .woocommerce-shipping-fields input.input-text,
 .woocommerce #customer_details .woocommerce-account-fields input.input-text {
   border: 2px solid #e1e2f4;
-  border-radius: 8px !important;
   -webkit-border-radius: 8px !important;
   -moz-border-radius: 8px !important;
   -ms-border-radius: 8px !important;
   -o-border-radius: 8px !important;
+  border-radius: 8px !important;
   padding: 10px;
 }
 .woocommerce #customer_details h3.form-row {
@@ -4520,11 +4499,11 @@ table.variations .tawcvs-swatches .swatch.selected {
   height: 165px;
   resize: none;
   border: 2px solid #e1e2f4;
-  border-radius: 8px !important;
   -webkit-border-radius: 8px !important;
   -moz-border-radius: 8px !important;
   -ms-border-radius: 8px !important;
   -o-border-radius: 8px !important;
+  border-radius: 8px !important;
 }
 .woocommerce #customer_details .shipping_address > * > label {
   float: left;
@@ -4539,11 +4518,11 @@ table.variations .tawcvs-swatches .swatch.selected {
   overflow: hidden;
   border: 2px solid #e1e2f4;
   padding: 10px;
-  border-radius: 8px !important;
   -webkit-border-radius: 8px !important;
   -moz-border-radius: 8px !important;
   -ms-border-radius: 8px !important;
   -o-border-radius: 8px !important;
+  border-radius: 8px !important;
   float: right;
 }
 .rtl .woocommerce #customer_details .shipping_address > * > .select2-container, .rtl
@@ -4593,11 +4572,11 @@ table.variations .tawcvs-swatches .swatch.selected {
   overflow: hidden;
   border: 2px solid #e1e2f4;
   padding: 10px;
-  border-radius: 8px !important;
   -webkit-border-radius: 8px !important;
   -moz-border-radius: 8px !important;
   -ms-border-radius: 8px !important;
   -o-border-radius: 8px !important;
+  border-radius: 8px !important;
   float: right;
 }
 .rtl .woocommerce .order-review #order_review_heading .woocommerce-billing-fields__field-wrapper > * > .select2-container, .rtl
@@ -4750,11 +4729,11 @@ table.variations .tawcvs-swatches .swatch.selected {
   width: auto;
   height: 56px;
   padding: 5px 18px !important;
-  border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
+  border-radius: 8px;
   border: 2px solid #e1e2f4 !important;
   margin-right: 18px !important;
 }
@@ -4882,11 +4861,11 @@ form.woocommerce-cart-form .woocommerce-cart-form__contents thead {
 .product-block .image {
   position: relative;
   overflow: hidden;
-  border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
+  border-radius: 8px;
   border: 2px solid #e1e2f4;
   overflow: hidden;
   -webkit-transition: all 0.5s ease-in-out 0s;
@@ -5486,11 +5465,11 @@ form.woocommerce-cart-form .woocommerce-cart-form__contents thead {
   display: inline-block;
   -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
-  border-radius: 50px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
+  border-radius: 50px;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
@@ -10233,11 +10212,11 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
   background-image: linear-gradient(to right, #f93967 50%, #bc02e0 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF93967', endColorstr='#FFBC02E0', GradientType=1);
-  border-radius: 60px;
   -webkit-border-radius: 60px;
   -moz-border-radius: 60px;
   -ms-border-radius: 60px;
   -o-border-radius: 60px;
+  border-radius: 60px;
 }
 .package-wrapper .add-cart .button:before {
   border-radius: 60px;
@@ -10245,11 +10224,11 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
   -moz-border-radius: 60px;
   -ms-border-radius: 60px;
   -o-border-radius: 60px;
-  border-radius: 60px;
   -webkit-border-radius: 60px;
   -moz-border-radius: 60px;
   -ms-border-radius: 60px;
   -o-border-radius: 60px;
+  border-radius: 60px;
   background-image: -webkit-linear-gradient(left, #bc02e0 50%, #f93967 100%);
   background-image: -o-linear-gradient(left, #bc02e0 50%, #f93967 100%);
   background-image: linear-gradient(to right, #bc02e0 50%, #f93967 100%);
@@ -10299,11 +10278,11 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 }
 .package-wrapper .package-meta {
   padding: 20px;
-  border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
+  border-radius: 8px;
   background: #fff;
 }
 @media (min-width: 1200px) {
