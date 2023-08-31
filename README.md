@@ -1,2 +1,3 @@
 # KDar
-Dhuzzz Dhuzzzzz Dhuzzzzzzzz
+Welcome to KDar,
+Unlocking the Future of Smart Investments
