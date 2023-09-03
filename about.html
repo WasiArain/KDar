@@ -43,6 +43,63 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 	<style type="text/css">
+		@media (min-width: 250px) and (max-width: 1024px) {
+			.mobile-row-reverse{
+				display: flex;
+				flex-direction: column-reverse;
+				flex-wrap: wrap;
+				margin: 100px 0;
+			}
+
+			.mobile-font{
+				color: #333!important;
+				text-align: center;
+			}
+
+			.widget-video .video .left-icon {
+				width: 50%;
+			}
+
+			.widget-video .video {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.padding-tb {
+				padding: 50px 0;
+			}
+
+			.img-graph {
+				width: 70%;
+			}
+
+			.widget-social .social,
+			.mobile-text-center {
+				text-align: center;
+			}
+
+			.mobile-center {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.vc_tta-panel-bod {
+				padding-top: 50px!important;
+				padding-bottom: 50px!important;
+			}
+
+			.add-fix-top {
+				right: 15px!important;
+			}
+		}
+		.font-dark{
+			color: #333!important;
+		}
+	</style>
+
+	<style type="text/css">
 		@media (min-width: 250px) and (max-width: 768px) {
 			.roadmap-accordion {
 				line-height: 1 !important;
@@ -503,7 +560,7 @@
 				<div class="row">
 					<div class="table-visiable">
 						<div class="col-xs-2">
-							<div class="box-left">
+							<div class="box-left text-center">
 								<a href="#navbar-offcanvas" class="btn btn-showmenu btn-toggle-canvas"><i class="fa fa-bars"></i></a>
 							</div>
 						</div>
@@ -588,18 +645,16 @@
 														<div class="wpb_wrapper">
 															<div class="vc_empty_space  hidden-sm hidden-xs" style="height: 25px"><span class="vc_empty_space_inner"></span></div>
 															<div class="vc_empty_space" style="height: 25px"><span class="vc_empty_space_inner"></span></div>
-															<div class="widget-action  dark">
+															<div class="widget-action dark mobile-text-center">
 																<div class="title">
 																	<p>KDar: A Revolutionary <strong>Cryptocurrency</strong><br />
 																		Backed by Agricultural Land and Base Commodity Trade </p>
 																</div>
 																<div class="descript">
-																	The cryptocurrency market has seen exponential growth, <br />
-																	but it has also faced challenges related to stability, intrinsic value, <br />
-																	and lack of real-world assets backing. Kdar seeks to address these concerns <br />
-																	by introducing a cryptocurrency that combines the benefits of blockchain <br />
-																	technology with the security and value of agricultural land and base <br />
-																	commodity trade contracts.
+																	The cryptocurrency market has seen exponential growth, but it has also faced challenges related to stability, 
+																	intrinsic value, and lack of real-world assets backing. <br />
+																	Kdar seeks to address these concerns by introducing a cryptocurrency that combines the benefits of blockchain 
+																	technology with the security and value of agricultural land and base commodity trade contracts. <br />
 																</div>
 																<div class="action">
 																	<a class="btn btn-gradient-red" href="#"> <span>Sign up to Join</span> </a>
@@ -711,14 +766,14 @@
 
 											<div class="vc_row wpb_row vc_inner vc_row-fluid">
 
-												<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6">
+												<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6 padding-tb">
 													<div class="vc_column-inner">
 														<div class="wpb_wrapper">
 															<div class="widget-video default">
-																<h3 class="widget-title">
+																<h3 class="widget-title mobile-text-center">
 																	<span>The Kdar Ecosystem</span>
 																</h3>
-																<div class="description">
+																<div class="description mobile-text-center">
 																	<p>Kdar is an innovative Initial Coin Offering (ICO) project that introduces a groundbreaking
 																		cryptocurrency backed by agricultural land and base commodity trade contracts.
 																		Unlike traditional cryptocurrencies,
@@ -754,7 +809,7 @@
 													</div>
 												</div>
 
-												<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-5 vc_col-md-6">
+												<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-5 vc_col-md-6 padding-tb">
 													<div class="vc_column-inner ">
 														<div class="wpb_wrapper">
 															<div class="widget widget-features-box  default">
@@ -830,7 +885,7 @@
 													</div>
 												</div>
 
-												<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-5 vc_col-md-5">
+												<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-5 vc_col-md-5 padding-tb">
 													<div class="vc_column-inner ">
 														<div class="wpb_wrapper">
 															<div class="widget widget-text-heading center">
@@ -992,7 +1047,7 @@
 
 							<!-- Fourth Section -->
 							<div class="vc_row-full-width vc_clearfix"></div>
-							<div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1521020518993 vc_row-has-fill">
+							<div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1521020518993 vc_row-has-fill padding-tb">
 								<div class="wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_column vc_column_container vc_col-sm-12">
 									<div class="vc_column-inner ">
 										<div class="wpb_wrapper">
@@ -1042,7 +1097,7 @@
 
 							<!-- Fifth Section -->
 							<div class="vc_row-full-width vc_clearfix"></div>
-							<div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1521020500480 vc_row-has-fill">
+							<div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1521020500480 vc_row-has-fill padding-tb">
 								<div class="wpb_column vc_column_container vc_col-sm-12">
 									<div class="vc_column-inner ">
 										<div class="wpb_wrapper">
@@ -1061,7 +1116,7 @@
 															<div class="wpb_single_image wpb_content_element vc_align_center">
 
 																<figure class="wpb_wrapper vc_figure">
-																	<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="442" height="459" src="./assets/images/graphic.png" class="vc_single_image-img attachment-full" alt="" loading="lazy" srcset="./assets/images/graphic.png 442w, ./assets/images/graphic-289x300.png 289w" sizes="(max-width: 442px) 100vw, 442px" /></div>
+																	<div class="vc_single_image-wrapper vc_box_border_grey img-graph"><img width="442" height="459" src="./assets/images/graphic.png" class="vc_single_image-img attachment-full" alt="" loading="lazy" srcset="./assets/images/graphic.png 442w, ./assets/images/graphic-289x300.png 289w" sizes="(max-width: 442px) 100vw, 442px" /></div>
 																</figure>
 															</div>
 														</div>
@@ -1071,7 +1126,7 @@
 													<div class="vc_column-inner ">
 														<div class="wpb_wrapper">
 															<div class="wpb_text_column wpb_content_element ">
-																<div class="wpb_wrapper">
+																<div class="wpb_wrapper mobile-center">
 																	<ul class="circle-list">
 																		<li class="circle-1">25% Branding and Marketing</li>
 																		<li class="circle-2">20% Gift Code Inventory</li>
@@ -1096,7 +1151,7 @@
 
 							<!-- Sixth Section -->
 							<div class="vc_row-full-width vc_clearfix"></div>
-							<div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1521017995715 vc_row-has-fill">
+							<div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1521017995715 vc_row-has-fill padding-tb">
 								<div class="wpb_column vc_column_container vc_col-sm-12">
 									<div class="vc_column-inner ">
 										<div class="wpb_wrapper">
@@ -1109,10 +1164,10 @@
 													<div class="vc_column-inner ">
 														<div class="wpb_wrapper">
 															<div class="widget-video default">
-																<h3 class="widget-title">
+																<h3 class="widget-title mobile-text-center">
 																	<span>Transparency and Security</span>
 																</h3>
-																<div class="description">
+																<div class="description mobile-text-center">
 																	<p>Kdar leverages the transparency and security benefits of blockchain technology.
 																		All transactions, including token creation, dividend payouts, and trade contracts,
 																		will be recorded on a public blockchain.
@@ -1135,7 +1190,7 @@
 													</div>
 												</div>
 
-												<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-5 vc_col-md-6">
+												<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-5 vc_col-md-6 padding-tb">
 													<div class="vc_column-inner ">
 														<div class="wpb_wrapper">
 															<div class="widget widget-features-box  default">
@@ -1438,7 +1493,7 @@
 
 							<!-- Team Section -->
 							<div class="vc_row-full-width vc_clearfix"></div>
-							<div id="team" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1521615831716 vc_row-has-fill vc_row-no-padding">
+							<div id="team" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1521615831716 vc_row-has-fill vc_row-no-padding padding-tb">
 								<div class="wpb_column vc_column_container vc_col-sm-2">
 									<div class="vc_column-inner ">
 										<div class="wpb_wrapper"></div>
@@ -1540,7 +1595,7 @@
 
 							<!-- FAQ's Section -->
 							<div class="vc_row-full-width vc_clearfix"></div>
-							<div id="faq" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1522989273402 vc_row-has-fill">
+							<div id="faq" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1522989273402 vc_row-has-fill padding-tb">
 								<div class="wpb_column vc_column_container vc_col-sm-12">
 									<div class="vc_column-inner ">
 										<div class="wpb_wrapper">
