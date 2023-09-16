@@ -52,7 +52,13 @@
 			color: #333!important;
 		}
 
-		@media (min-width: 250px) and (max-width: 1024px) {
+		.kdar-video {
+			width: 800px;
+			height: 450px;
+			border-radius: 10px;
+		}
+
+		@media (min-width: 400px) and (max-width: 1024px) {
 			.mobile-row-reverse{
 				display: flex;
 				flex-direction: column-reverse;
@@ -113,6 +119,80 @@
 				justify-content: center;
 				align-items: center;
 				flex-wrap: wrap;
+			}
+
+			.kdar-video {
+			width: 400px;
+			height: 225px;
+			}
+		}
+
+		@media (min-width: 250px) and (max-width: 400px) {
+			.mobile-row-reverse{
+				display: flex;
+				flex-direction: column-reverse;
+				flex-wrap: wrap;
+				margin: 100px 0;
+			}
+
+			.mobile-text{
+				color: #333!important;
+				text-align: center;
+			}
+
+			.mobile-title{
+				color: #556bff!important;
+				text-align: center;
+			}
+
+			.widget-video .video .left-icon {
+				width: 50%;
+			}
+
+			.widget-video .video {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.padding-tb {
+				padding: 50px 0;
+			}
+
+			.img-graph {
+				width: 70%;
+			}
+
+			.widget-social .social,
+			.mobile-text-center {
+				text-align: center;
+			}
+
+			.mobile-center {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.vc_tta-panel-bod {
+				padding-top: 50px!important;
+				padding-bottom: 50px!important;
+			}
+
+			.add-fix-top {
+				right: 15px!important;
+			}
+
+			.content-center {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-wrap: wrap;
+			}
+
+			.kdar-video {
+			width: 300px;
+			height: 168px;
 			}
 		}
 	</style>
@@ -801,7 +881,7 @@
 																		world's first cryptocurrency Real Estate Investment Trust (REIT),
 																		combining the benefits of blockchain technology with the stability of tangible assets.</p>
 																</div>
-																<div class="video-wrapper-inner">
+																<!-- <div class="video-wrapper-inner">
 																	<div class="video clearfix content-center">
 																		<a class="popup-video" href="./assets/video/kdar.mp4">
 																			<div class="image-wrapper"><img width="72" height="72" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039; viewBox%3D&#039;0 0 72 72&#039;%2F%3E" class="attachment-full size-full unveil-image" alt="" data-src="./assets/images/Forma-2.png" /></div>
@@ -815,7 +895,7 @@
 																			</div>
 																		</div>
 																	</div>
-																</div>
+																</div> -->
 															</div>
 														</div>
 													</div>
@@ -959,28 +1039,30 @@
 												<h3 class="title">
 													Dividends and Staking </h3>
 												<div class="description">
-													<p>One of the most innovative features of Kdar is its dividend payout mechanism.<br /><br />
+													<p>One of the most innovative features of Kdar is its dividend payout mechanism.
 														Token holders who stake their Kdar tokens will receive a share of the profits
 														generated from the agricultural land and base commodity trade contracts.
 														The dividends will be distributed proportionally based on the number of tokens staked.
 														This incentivizes long-term holding and active participation in the ecosystem.</p>
 												</div>
 											</div>
+
 											<div class="vc_empty_space  hidden-sm hidden-xs" style="height: 30px"><span class="vc_empty_space_inner"></span></div>
 											<div class="vc_empty_space" style="height: 30px"><span class="vc_empty_space_inner"></span></div>
-											<div class="banner-countdown-widget  light">
 
-
-
-
-												<div class="countdown-wrapper">
-													<div class="apus-countdown" data-time="timmer" data-date="07-21-2018-00-00-00">
-													</div>
-												</div>
+											<div class="banner-countdown-widget light">
+												<video class="kdar-video" controls>
+													<source src="./assets/video/kdar.mp4" type="video/mp4">
+												</video> <br /> <br />
 												<div class="text-center">
 													<a class="btn-gradient-red" href="./assets/downloads/Kdar-White-Paper.pdf" download> <span>Download Whitepaper</span> </a>
 												</div>
+												<!-- <br /> <br />
+												<div class="countdown-wrapper">
+													<div class="apus-countdown" data-time="timmer" data-date="05-12-2024-00-00-00"></div>
+												</div> -->
 											</div>
+
 											<div class="vc_empty_space" style="height: 25px"><span class="vc_empty_space_inner"></span></div>
 											<div class="vc_empty_space  hidden-sm hidden-xs" style="height: 25px"><span class="vc_empty_space_inner"></span></div>
 

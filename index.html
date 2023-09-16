@@ -52,7 +52,13 @@
 			color: #333!important;
 		}
 
-		@media (min-width: 250px) and (max-width: 1024px) {
+		.kdar-video {
+			width: 800px;
+			height: 450px;
+			border-radius: 10px;
+		}
+
+		@media (min-width: 400px) and (max-width: 1024px) {
 			.mobile-row-reverse{
 				display: flex;
 				flex-direction: column-reverse;
@@ -113,6 +119,80 @@
 				justify-content: center;
 				align-items: center;
 				flex-wrap: wrap;
+			}
+
+			.kdar-video {
+			width: 400px;
+			height: 225px;
+			}
+		}
+
+		@media (min-width: 250px) and (max-width: 400px) {
+			.mobile-row-reverse{
+				display: flex;
+				flex-direction: column-reverse;
+				flex-wrap: wrap;
+				margin: 100px 0;
+			}
+
+			.mobile-text{
+				color: #333!important;
+				text-align: center;
+			}
+
+			.mobile-title{
+				color: #556bff!important;
+				text-align: center;
+			}
+
+			.widget-video .video .left-icon {
+				width: 50%;
+			}
+
+			.widget-video .video {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.padding-tb {
+				padding: 50px 0;
+			}
+
+			.img-graph {
+				width: 70%;
+			}
+
+			.widget-social .social,
+			.mobile-text-center {
+				text-align: center;
+			}
+
+			.mobile-center {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.vc_tta-panel-bod {
+				padding-top: 50px!important;
+				padding-bottom: 50px!important;
+			}
+
+			.add-fix-top {
+				right: 15px!important;
+			}
+
+			.content-center {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-wrap: wrap;
+			}
+
+			.kdar-video {
+			width: 300px;
+			height: 168px;
 			}
 		}
 	</style>
@@ -824,7 +904,7 @@
 																	<p>By investing in KDAR, you become part of an ecosystem that draws stability and intrinsic value from real-world assets.
 																		Say goodbye to the unpredictability of traditional cryptocurrencies and embrace the security of tangible value.</p>
 																</div>
-																<div class="video-wrapper-inner">
+																<!-- <div class="video-wrapper-inner">
 																	<div class="video clearfix content-center">
 																		<a class="popup-video" href="./assets/video/kdar.mp4">
 																			<div class="image-wrapper"><img width="80" height="80" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039; viewBox%3D&#039;0 0 80 80&#039;%2F%3E" class="attachment-full size-full unveil-image" alt="" data-src="./assets/images/icon-video.png" /></div>
@@ -838,7 +918,7 @@
 																			</div>
 																		</div>
 																	</div>
-																</div>
+																</div> -->
 															</div>
 														</div>
 													</div>
@@ -961,14 +1041,14 @@
 									<div class="vc_column-inner ">
 										<div class="wpb_wrapper">
 											<div class="vc_empty_space  hidden-sm hidden-xs" style="height: 60px"><span class="vc_empty_space_inner"></span></div>
-											<div class="widget widget-text-heading  center ">
+											<div class="widget widget-text-heading center">
 												<h3 class="title">
 													Transparency and Security </h3>
 												<div class="description text-dark">
-													<p>At KDar, we prioritize your security and peace of mind. <br />
+													<p>At KDar, we prioritize your security and peace of mind.
 														We utilize the transparency and immutability of blockchain technology
 														to ensure that all transactions and activities within the
-														KDAR ecosystem are recorded on a public ledger. <br /><br />
+														KDAR ecosystem are recorded on a public ledger.
 														Rest assured that your investment is safeguarded by robust security measures,
 														providing you with a worry-free investing experience.
 													</p>
@@ -977,15 +1057,19 @@
 											<div class="vc_empty_space  hidden-sm hidden-xs" style="height: 20px"><span class="vc_empty_space_inner"></span></div>
 											<div class="vc_empty_space" style="height: 30px"><span class="vc_empty_space_inner"></span></div>
 
-											<div class="banner-countdown-widget  st_red">
-												<div class="countdown-wrapper">
-													<div class="apus-countdown" data-time="timmer" data-date="07-21-2018-00-00-00">
-													</div>
-												</div>
+											<div class="banner-countdown-widget st_red">
+												<video class="kdar-video" controls>
+													<source src="./assets/video/kdar.mp4" type="video/mp4">
+												</video> <br /> <br />
 												<div class="text-center">
 													<a class="btn-gradient-red" href="./assets/downloads/Kdar-White-Paper.pdf" download> <span>Download Whitepaper</span> </a>
 												</div>
+												<!-- <br /> <br />
+												<div class="countdown-wrapper">
+													<div class="apus-countdown" data-time="timmer" data-date="05-12-2024-00-00-00"></div>
+												</div> -->
 											</div>
+
 											<div class="vc_empty_space" style="height: 25px"><span class="vc_empty_space_inner"></span></div>
 											<div class="vc_empty_space  hidden-sm hidden-xs" style="height: 25px"><span class="vc_empty_space_inner"></span></div>
 
