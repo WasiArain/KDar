@@ -52,9 +52,15 @@
 			color: #333!important;
 		}
 
-		.kdar-video {
+		.kdar-landing-video {
 			width: 600px;
 			height: 340px;
+			border-radius: 10px;
+		}
+
+		.kdar-video {
+			width: 800px;
+			height: 450px;
 			border-radius: 10px;
 		}
 
@@ -121,7 +127,8 @@
 				flex-wrap: wrap;
 			}
 
-			.kdar-video {
+			.kdar-video,
+			.kdar-landing-video {
 			width: 400px;
 			height: 225px;
 			}
@@ -190,7 +197,8 @@
 				flex-wrap: wrap;
 			}
 
-			.kdar-video {
+			.kdar-video,
+			.kdar-landing-video {
 			width: 300px;
 			height: 168px;
 			}
@@ -718,6 +726,7 @@
 										<div class="wpb_wrapper">
 											<div class="vc_empty_space" style="height: 100px"><span class="vc_empty_space_inner"></span></div>
 											<div class="vc_empty_space  hidden-sm hidden-xs" style="height: 130px"><span class="vc_empty_space_inner"></span></div>
+
 											<div class="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-equal-height vc_row-o-content-middle vc_row-flex">
 
 												<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6">
@@ -781,7 +790,7 @@
 												<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6 text-center">
 													<div class="vc_column-inner ">
 														<div class="wpb_wrapper">
-															<video class="kdar-video" controls autoplay muted>
+															<video class="kdar-landing-video" controls autoplay muted>
 																<source src="./assets/video/kdar.mp4" type="video/mp4">
 															</video>
 
@@ -1064,15 +1073,15 @@
 											<div class="vc_empty_space" style="height: 30px"><span class="vc_empty_space_inner"></span></div>
 
 											<div class="banner-countdown-widget st_red">
-												<div class="countdown-wrapper">
-													<div class="apus-countdown" data-time="timmer" data-date="05-12-2025-00-00-00"></div>
-												</div>
+												<video class="kdar-video" controls autoplay muted>
+													<source src="./assets/video/kdar.mp4" type="video/mp4">
+												</video> <br /><br />
 												<div class="text-center">
 													<a class="btn-gradient-red" href="./assets/downloads/Kdar-White-Paper.pdf" download> <span>Download Whitepaper</span> </a>
 												</div>
 												<!-- <br /> <br />
 												<div class="countdown-wrapper">
-													<div class="apus-countdown" data-time="timmer" data-date="05-12-2024-00-00-00"></div>
+													<div class="apus-countdown" data-time="timmer" data-date="05-12-2025-00-00-00"></div>
 												</div> -->
 											</div>
 
